@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(37, 82, 1);
+}
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50vw;
+}
+section{
+    text-align: left;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    
+}
+h1,p#insta{
+    color: white;
+}
+img,#res{
+    text-align: center;
+    margin: auto;
+}
+img{
+    display: block;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
